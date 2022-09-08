@@ -449,8 +449,8 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box-svg__icon:hover,
-.box-svg__icon:focus {
+.box-svg__input:hover ~ .box-svg__icon,
+.box-svg__input:focus ~ .box-svg__icon {
   color: var(--accent-color);
 }
 
@@ -491,7 +491,7 @@ img {
 
 .checkbox__input {
   position: absolute;
-  width: 1px;
+  /* width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
@@ -499,9 +499,9 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: hidden; */
 
-  /* appearance: none; */
+  appearance: none;
 }
 
 .checkbox__svg {
@@ -520,8 +520,11 @@ img {
   border: none;
 }
 
+/* .checkbox__use {
+  display: none;
+} */
+
 .checkbox__link {
-  margin-left: 5px;
   text-decoration-line: underline;
 
   color: var(--accent-color);
