@@ -62,7 +62,9 @@
       <section class="hero overlay">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button data-modal-open type="button" class="button primary">Замовити послугу</button>
+          <button data-modal-open type="button" class="button hero__primary">
+            Замовити послугу
+          </button>
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
@@ -116,26 +118,22 @@
                 ></textarea>
               </div>
 
-              <div class="modal-form-checkbox">
-                <label class="modal-form-checkbox__label"
-                  ><input
-                    class="modal-form-checkbox__input"
-                    type="checkbox"
-                    name="checkbox"
-                    required
-                  /><span class="modal-form-checkbox__svg"
+              <div class="checkbox">
+                <label class="checkbox__label"
+                  ><input class="checkbox__input" type="checkbox" name="checkbox" required /><span
+                    class="checkbox__svg"
                     ><svg width="16px" height="15px">
                       <use
-                        class="modal-form-checkbox__use"
+                        class="checkbox__use"
                         href="./images/icons.svg#icon-icon-check"
                       ></use></svg
                   ></span>
                   Погоджуюся з розсилкою та приймаю &nbsp;
-                  <a class="modal-form-checkbox__link" href="#"> Умови договору </a></label
+                  <a class="checkbox__link" href="#"> Умови договору </a></label
                 >
               </div>
 
-              <button class="button-modal" type="submit">Відправити</button>
+              <button class="modal__button" type="submit">Відправити</button>
             </form>
           </div>
         </div>
@@ -145,7 +143,7 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
-          <ul class="feature-list list">
+          <ul class="feature__list list">
             <li class="feature-list__item">
               <div class="background">
                 <svg class="background__icon" width="70px" height="70px">
