@@ -1,17 +1,17 @@
 .logo {
   color: var(--accent-color);
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
-.page-nav__logo {
+.page__logo {
   margin-right: 93px;
   padding-top: 23px;
   padding-bottom: 23px;
 }
-.page-nav__studio {
+.page__studio {
   color: var(--studio);
   margin: 0;
 }

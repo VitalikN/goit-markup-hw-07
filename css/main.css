@@ -91,33 +91,33 @@ img {
   line-height: 1.2;
 }
 
-.page-nav__logo {
+.page__logo {
   margin-right: 93px;
   padding-top: 23px;
   padding-bottom: 23px;
 }
 
-.page-nav__studio {
+.page__studio {
   color: var(--studio);
   margin: 0;
 }
 
-.page-header {
+.page__header {
   height: 80px;
   border-bottom: 1px solid var(--border--headr);
 }
 
-.page-nav,
+.page__nav,
 .nav {
   display: flex;
   align-items: center;
 }
 
-.list-nav {
+.nav__list {
   display: flex;
 }
 
-.list-nav__link {
+.nav__link {
   position: relative;
   font-weight: 500;
   line-height: 1.14;
@@ -125,13 +125,11 @@ img {
   padding: 32px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.list-nav__link:hover,
-.list-nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
 }
 
-.list-nav__link.current::after {
+.nav__link.current::after {
   position: absolute;
   content: "";
   left: 0;
@@ -144,8 +142,7 @@ img {
   transform: scaleX(1);
   /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
-.list-nav__link::after {
+.nav__link::after {
   position: absolute;
   content: "";
   left: 0;
@@ -158,13 +155,11 @@ img {
   transform: scaleX(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.list-nav__link:hover::after,
-.list-nav__link:focus::after {
+.nav__link:hover::after, .nav__link:focus::after {
   transform: scaleX(1);
 }
 
-.list-nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -177,7 +172,7 @@ img {
   color: var(--accent-color);
 }
 
-.list-contact {
+.contact__list {
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -186,7 +181,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.list-contact__link {
+.contact__link {
   color: var(--title-text-color);
   text-decoration: none;
   padding: 32px 0;
@@ -194,18 +189,16 @@ img {
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.list-contact__link:hover,
-.list-contact__link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--accent-color);
 }
 
-.list-contact__icon {
+.contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.list-contact__item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 50px;
 }
 
