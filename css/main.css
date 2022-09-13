@@ -541,7 +541,7 @@ img {
   background-size: contain;
 }
 
-.section-sidebar {
+.section__sidebar {
   padding-top: 0;
 }
 
@@ -554,16 +554,15 @@ img {
   margin-bottom: 50px;
 }
 
-.list-image {
+.image__list {
   display: flex;
 }
 
-.list-image__item {
+.image__item {
   max-width: 1200px;
   height: auto;
 }
-
-.list-image__item:not(:last-child) {
+.image__item:not(:last-child) {
   margin-right: 30px;
 }
 
