@@ -6,9 +6,9 @@
   border: 1px solid transparent;
 
   font-family: 'Roboto';
-  font-size: 16px;
+  @include font(16px, 500, 30px);
+
   text-align: center;
-  font-weight: 500;
 
   box-sizing: border-box;
 }
@@ -76,9 +76,7 @@
 .modal__button {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 700, 30px);
   padding: 10px 52px;
   cursor: pointer;
   display: flex;

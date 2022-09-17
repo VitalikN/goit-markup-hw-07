@@ -27,9 +27,8 @@
 .button-mail {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 700, 30px);
+
   width: 200px;
   cursor: pointer;
 
